@@ -7,7 +7,7 @@ interface GitHubProfile {
 }
 
 // Hardcode the values to bypass any environment variable issues
-const GITHUB_ID = "Ov23li4TtKu7i2rEEGsB"
+const GITHUB_ID = "0v23li4TtKu7i2rEEGsB"
 const GITHUB_SECRET = "520a28f544373adee3cabec3b3142c11370b63a9"
 
 // If ALLOWED_USERS is set, only those users can access. Otherwise, anyone can use it.
