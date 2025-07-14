@@ -1,7 +1,7 @@
-import { NextRequest, NextResponse } from 'next/server'
+import { NextResponse } from 'next/server'
 import { authOptions } from '@/lib/auth-debug'
 
-export async function GET(request: NextRequest) {
+export async function GET() {
   const providers = authOptions.providers || []
   const githubProvider = providers[0] as any
   
