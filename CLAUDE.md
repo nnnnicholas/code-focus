@@ -7,8 +7,12 @@ Code Focus is a private GitHub activity dashboard that displays commit activity 
 - **Project Plan**: See `documentation/project-plan.md` for detailed implementation plan
 - **Development Log**: See `documentation/development-log.md` for decisions made and solutions implemented
 - **Setup Guide**: See `documentation/setup-guide.md` for deployment instructions
+- **OAuth Troubleshooting**: See `documentation/oauth-troubleshooting-log.md` for current OAuth issue and attempted fixes
 - **Tech Stack**: Next.js, TypeScript, NextAuth, Tailwind CSS, Vercel
 - **Main Goal**: Show ranked repositories by lines of code committed in last N days (configurable)
+
+## CRITICAL ISSUE - OAuth Authentication
+There is an unresolved issue where NextAuth adds `%0A` (newline) to the GitHub Client ID in OAuth URLs, causing 404 errors. See `documentation/oauth-troubleshooting-log.md` for full details and attempted solutions.
 
 ## Development Guidelines
 1. Always use `pnpm` for package management
