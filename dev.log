@@ -1,0 +1,679 @@
+
+> code-focus@0.1.0 dev /Users/nico/Development/active projects/code-focus
+> next dev --turbopack
+
+   ▲ Next.js 15.3.5 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.2.175:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Compiled middleware in 166ms
+ ✓ Ready in 946ms
+ ✓ Compiled /api/auth/[...nextauth] in 489ms
+ GET /api/auth/session 200 in 855ms
+ GET /api/auth/session 200 in 42ms
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 997ms
+ GET /dashboard 200 in 1117ms
+ GET /api/auth/session 200 in 43ms
+ ✓ Compiled /favicon.ico in 450ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 634ms
+GET /repos/nnnnicholas/copy-transcript-extension/commits?author=nnnnicholas&since=2025-07-10T20%3A54%3A39.467Z&per_page=100 - 409 with id FEC4:20AA68:98136AD:13460D4D:68741D0F in 88ms
+Error fetching commits for nnnnicholas/copy-transcript-extension: Error [HttpError]: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits
+    at <unknown> (HttpError: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits)
+    at async GET (app/api/stats/route.ts:69:34)
+  67 |     for (const repo of allRepos) {
+  68 |       try {
+> 69 |         const { data: commits } = await octokit.repos.listCommits({
+     |                                  ^
+  70 |           owner: repo.owner.login,
+  71 |           repo: repo.name,
+  72 |           author: username, {
+  status: 409,
+  request: [Object],
+  response: [Object]
+}
+ GET /api/auth/session 200 in 26ms
+ ○ Compiling /_not-found/page ...
+ ✓ Compiled /_not-found/page in 679ms
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 723ms
+GET /repos/nnnnicholas/juice-nft-time-limited-drop/commits?author=nnnnicholas&since=2025-07-10T20%3A54%3A39.467Z&per_page=100 - 409 with id FEC5:1AE7DA:99250D7:136C4F4A:68741D16 in 94ms
+Error fetching commits for nnnnicholas/juice-nft-time-limited-drop: Error [HttpError]: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits
+    at <unknown> (HttpError: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits)
+    at async GET (app/api/stats/route.ts:69:34)
+  67 |     for (const repo of allRepos) {
+  68 |       try {
+> 69 |         const { data: commits } = await octokit.repos.listCommits({
+     |                                  ^
+  70 |           owner: repo.owner.login,
+  71 |           repo: repo.name,
+  72 |           author: username, {
+  status: 409,
+  request: [Object],
+  response: [Object]
+}
+GET /repos/nnnnicholas/banana-auction-machine/commits?author=nnnnicholas&since=2025-07-10T20%3A54%3A39.467Z&per_page=100 - 409 with id FEC5:1AE7DA:9925230:136C5210:68741D16 in 86ms
+Error fetching commits for nnnnicholas/banana-auction-machine: Error [HttpError]: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits
+    at <unknown> (HttpError: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits)
+    at async GET (app/api/stats/route.ts:69:34)
+  67 |     for (const repo of allRepos) {
+  68 |       try {
+> 69 |         const { data: commits } = await octokit.repos.listCommits({
+     |                                  ^
+  70 |           owner: repo.owner.login,
+  71 |           repo: repo.name,
+  72 |           author: username, {
+  status: 409,
+  request: [Object],
+  response: [Object]
+}
+ GET /api/stats 200 in 12570ms
+ GET /api/stats 200 in 22ms
+ GET /dashboard 200 in 55ms
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 128ms
+ GET /api/auth/session 200 in 159ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 360ms
+ GET /api/stats 200 in 5386ms
+ GET /dashboard 200 in 46ms
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 102ms
+ GET /api/auth/session 200 in 134ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 346ms
+GET /repos/nnnnicholas/copy-transcript-extension/commits?author=nnnnicholas&since=2025-07-10T20%3A56%3A46.365Z&per_page=100 - 409 with id C17E:397759:F12669:1EC2F12:68741D9F in 108ms
+Error fetching commits for nnnnicholas/copy-transcript-extension: Error [HttpError]: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits
+    at <unknown> (HttpError: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits)
+    at async GET (app/api/stats/route.ts:67:34)
+  65 |     for (const repo of allRepos) {
+  66 |       try {
+> 67 |         const { data: commits } = await octokit.repos.listCommits({
+     |                                  ^
+  68 |           owner: repo.owner.login,
+  69 |           repo: repo.name,
+  70 |           author: username, {
+  status: 409,
+  request: [Object],
+  response: [Object]
+}
+GET /repos/nnnnicholas/copy-transcript-extension/commits?author=nnnnicholas&since=2025-07-10T20%3A56%3A51.863Z&per_page=100 - 409 with id C19F:EDB5A:51984C2:A6109CD:68741DA0 in 95ms
+Error fetching commits for nnnnicholas/copy-transcript-extension: Error [HttpError]: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits
+    at <unknown> (HttpError: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits)
+    at async GET (app/api/stats/route.ts:67:34)
+  65 |     for (const repo of allRepos) {
+  66 |       try {
+> 67 |         const { data: commits } = await octokit.repos.listCommits({
+     |                                  ^
+  68 |           owner: repo.owner.login,
+  69 |           repo: repo.name,
+  70 |           author: username, {
+  status: 409,
+  request: [Object],
+  response: [Object]
+}
+GET /repos/nftstory/bbb-frontend-degen/commits?author=nnnnicholas&since=2025-07-10T20%3A56%3A51.863Z&per_page=100 - 409 with id C19F:EDB5A:5199685:A612DA1:68741DA6 in 117ms
+Error fetching commits for nftstory/bbb-frontend-degen: Error [HttpError]: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits
+    at <unknown> (HttpError: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits)
+    at async GET (app/api/stats/route.ts:67:34)
+  65 |     for (const repo of allRepos) {
+  66 |       try {
+> 67 |         const { data: commits } = await octokit.repos.listCommits({
+     |                                  ^
+  68 |           owner: repo.owner.login,
+  69 |           repo: repo.name,
+  70 |           author: username, {
+  status: 409,
+  request: [Object],
+  response: [Object]
+}
+GET /repos/nftstory/bbb-frontend-degen/commits?author=nnnnicholas&since=2025-07-10T20%3A56%3A46.365Z&per_page=100 - 409 with id C16D:3A2944:F6C15A:1F6DCC4:68741DA6 in 144ms
+Error fetching commits for nftstory/bbb-frontend-degen: Error [HttpError]: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits
+    at <unknown> (HttpError: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits)
+    at async GET (app/api/stats/route.ts:67:34)
+  65 |     for (const repo of allRepos) {
+  66 |       try {
+> 67 |         const { data: commits } = await octokit.repos.listCommits({
+     |                                  ^
+  68 |           owner: repo.owner.login,
+  69 |           repo: repo.name,
+  70 |           author: username, {
+  status: 409,
+  request: [Object],
+  response: [Object]
+}
+GET /repos/nftstory/bbb-token-api/commits?author=nnnnicholas&since=2025-07-10T20%3A56%3A51.863Z&per_page=100 - 409 with id C17E:397759:F13B7E:1EC5A55:68741DA6 in 136ms
+Error fetching commits for nftstory/bbb-token-api: Error [HttpError]: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits
+    at <unknown> (HttpError: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits)
+    at async GET (app/api/stats/route.ts:67:34)
+  65 |     for (const repo of allRepos) {
+  66 |       try {
+> 67 |         const { data: commits } = await octokit.repos.listCommits({
+     |                                  ^
+  68 |           owner: repo.owner.login,
+  69 |           repo: repo.name,
+  70 |           author: username, {
+  status: 409,
+  request: [Object],
+  response: [Object]
+}
+GET /repos/nftstory/bbb-token-api/commits?author=nnnnicholas&since=2025-07-10T20%3A56%3A46.365Z&per_page=100 - 409 with id C19F:EDB5A:5199711:A612EA1:68741DA6 in 132ms
+Error fetching commits for nftstory/bbb-token-api: Error [HttpError]: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits
+    at <unknown> (HttpError: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits)
+    at async GET (app/api/stats/route.ts:67:34)
+  65 |     for (const repo of allRepos) {
+  66 |       try {
+> 67 |         const { data: commits } = await octokit.repos.listCommits({
+     |                                  ^
+  68 |           owner: repo.owner.login,
+  69 |           repo: repo.name,
+  70 |           author: username, {
+  status: 409,
+  request: [Object],
+  response: [Object]
+}
+GET /repos/nftstory/memewar-frontend/commits?author=nnnnicholas&since=2025-07-10T20%3A56%3A51.863Z&per_page=100 - 409 with id C19F:EDB5A:5199B56:A613766:68741DA8 in 100ms
+Error fetching commits for nftstory/memewar-frontend: Error [HttpError]: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits
+    at <unknown> (HttpError: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits)
+    at async GET (app/api/stats/route.ts:67:34)
+  65 |     for (const repo of allRepos) {
+  66 |       try {
+> 67 |         const { data: commits } = await octokit.repos.listCommits({
+     |                                  ^
+  68 |           owner: repo.owner.login,
+  69 |           repo: repo.name,
+  70 |           author: username, {
+  status: 409,
+  request: [Object],
+  response: [Object]
+}
+GET /repos/nftstory/memewar-frontend/commits?author=nnnnicholas&since=2025-07-10T20%3A56%3A46.365Z&per_page=100 - 409 with id C17E:397759:F14045:1EC644E:68741DA8 in 162ms
+Error fetching commits for nftstory/memewar-frontend: Error [HttpError]: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits
+    at <unknown> (HttpError: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits)
+    at async GET (app/api/stats/route.ts:67:34)
+  65 |     for (const repo of allRepos) {
+  66 |       try {
+> 67 |         const { data: commits } = await octokit.repos.listCommits({
+     |                                  ^
+  68 |           owner: repo.owner.login,
+  69 |           repo: repo.name,
+  70 |           author: username, {
+  status: 409,
+  request: [Object],
+  response: [Object]
+}
+ GET /api/auth/session 200 in 44ms
+ GET /dashboard 200 in 43ms
+ GET /api/auth/session 200 in 33ms
+GET /repos/nnnnicholas/copy-transcript-extension/commits?author=nnnnicholas&since=2025-07-10T20%3A57%3A25.932Z&per_page=100 - 409 with id C1BD:2A4742:F1D801:1ED4B28:68741DC2 in 75ms
+Error fetching commits for nnnnicholas/copy-transcript-extension: Error [HttpError]: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits
+    at <unknown> (HttpError: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits)
+    at async GET (app/api/stats/route.ts:67:34)
+  65 |     for (const repo of allRepos) {
+  66 |       try {
+> 67 |         const { data: commits } = await octokit.repos.listCommits({
+     |                                  ^
+  68 |           owner: repo.owner.login,
+  69 |           repo: repo.name,
+  70 |           author: username, {
+  status: 409,
+  request: [Object],
+  response: [Object]
+}
+GET /repos/nftstory/nftstory-subgraph-mumbai/commits?author=nnnnicholas&since=2025-07-10T20%3A56%3A46.365Z&per_page=100 - 409 with id C1BD:2A4742:F1D95E:1ED4DEA:68741DC2 in 90ms
+Error fetching commits for nftstory/nftstory-subgraph-mumbai: Error [HttpError]: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits
+    at <unknown> (HttpError: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits)
+    at async GET (app/api/stats/route.ts:67:34)
+  65 |     for (const repo of allRepos) {
+  66 |       try {
+> 67 |         const { data: commits } = await octokit.repos.listCommits({
+     |                                  ^
+  68 |           owner: repo.owner.login,
+  69 |           repo: repo.name,
+  70 |           author: username, {
+  status: 409,
+  request: [Object],
+  response: [Object]
+}
+GET /repos/nftstory/nftstory-subgraph-mumbai/commits?author=nnnnicholas&since=2025-07-10T20%3A56%3A51.863Z&per_page=100 - 409 with id C16D:3A2944:F7118C:1F77F6E:68741DC2 in 112ms
+Error fetching commits for nftstory/nftstory-subgraph-mumbai: Error [HttpError]: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits
+    at <unknown> (HttpError: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits)
+    at async GET (app/api/stats/route.ts:67:34)
+  65 |     for (const repo of allRepos) {
+  66 |       try {
+> 67 |         const { data: commits } = await octokit.repos.listCommits({
+     |                                  ^
+  68 |           owner: repo.owner.login,
+  69 |           repo: repo.name,
+  70 |           author: username, {
+  status: 409,
+  request: [Object],
+  response: [Object]
+}
+GET /repos/nftstory/memewar-frontend/commits?author=nnnnicholas&since=2025-07-10T20%3A56%3A46.365Z&per_page=100 - 409 with id C1BD:2A4742:F1DC5B:1ED540F:68741DC4 in 81ms
+Error fetching commits for nftstory/memewar-frontend: Error [HttpError]: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits
+    at <unknown> (HttpError: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits)
+    at async GET (app/api/stats/route.ts:67:34)
+  65 |     for (const repo of allRepos) {
+  66 |       try {
+> 67 |         const { data: commits } = await octokit.repos.listCommits({
+     |                                  ^
+  68 |           owner: repo.owner.login,
+  69 |           repo: repo.name,
+  70 |           author: username, {
+  status: 409,
+  request: [Object],
+  response: [Object]
+}
+GET /repos/nftstory/memewar-frontend/commits?author=nnnnicholas&since=2025-07-10T20%3A56%3A51.863Z&per_page=100 - 409 with id C17E:397759:F18F57:1ED0503:68741DC4 in 135ms
+Error fetching commits for nftstory/memewar-frontend: Error [HttpError]: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits
+    at <unknown> (HttpError: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits)
+    at async GET (app/api/stats/route.ts:67:34)
+  65 |     for (const repo of allRepos) {
+  66 |       try {
+> 67 |         const { data: commits } = await octokit.repos.listCommits({
+     |                                  ^
+  68 |           owner: repo.owner.login,
+  69 |           repo: repo.name,
+  70 |           author: username, {
+  status: 409,
+  request: [Object],
+  response: [Object]
+}
+GET /repos/nftstory/bbb-token-api/commits?author=nnnnicholas&since=2025-07-10T20%3A56%3A46.365Z&per_page=100 - 409 with id C1BD:2A4742:F1DDFF:1ED577B:68741DC4 in 94ms
+Error fetching commits for nftstory/bbb-token-api: Error [HttpError]: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits
+    at <unknown> (HttpError: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits)
+    at async GET (app/api/stats/route.ts:67:34)
+  65 |     for (const repo of allRepos) {
+  66 |       try {
+> 67 |         const { data: commits } = await octokit.repos.listCommits({
+     |                                  ^
+  68 |           owner: repo.owner.login,
+  69 |           repo: repo.name,
+  70 |           author: username, {
+  status: 409,
+  request: [Object],
+  response: [Object]
+}
+GET /repos/nftstory/bbb-token-api/commits?author=nnnnicholas&since=2025-07-10T20%3A56%3A51.863Z&per_page=100 - 409 with id C19F:EDB5A:519EA93:A61D700:68741DC4 in 100ms
+Error fetching commits for nftstory/bbb-token-api: Error [HttpError]: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits
+    at <unknown> (HttpError: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits)
+    at async GET (app/api/stats/route.ts:67:34)
+  65 |     for (const repo of allRepos) {
+  66 |       try {
+> 67 |         const { data: commits } = await octokit.repos.listCommits({
+     |                                  ^
+  68 |           owner: repo.owner.login,
+  69 |           repo: repo.name,
+  70 |           author: username, {
+  status: 409,
+  request: [Object],
+  response: [Object]
+}
+GET /repos/nftstory/bbb-frontend-degen/commits?author=nnnnicholas&since=2025-07-10T20%3A56%3A51.863Z&per_page=100 - 409 with id C1BD:2A4742:F1DE7B:1ED587B:68741DC4 in 79ms
+Error fetching commits for nftstory/bbb-frontend-degen: Error [HttpError]: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits
+    at <unknown> (HttpError: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits)
+    at async GET (app/api/stats/route.ts:67:34)
+  65 |     for (const repo of allRepos) {
+  66 |       try {
+> 67 |         const { data: commits } = await octokit.repos.listCommits({
+     |                                  ^
+  68 |           owner: repo.owner.login,
+  69 |           repo: repo.name,
+  70 |           author: username, {
+  status: 409,
+  request: [Object],
+  response: [Object]
+}
+GET /repos/nftstory/bbb-frontend-degen/commits?author=nnnnicholas&since=2025-07-10T20%3A56%3A46.365Z&per_page=100 - 409 with id C17E:397759:F19159:1ED0930:68741DC4 in 148ms
+Error fetching commits for nftstory/bbb-frontend-degen: Error [HttpError]: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits
+    at <unknown> (HttpError: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits)
+    at async GET (app/api/stats/route.ts:67:34)
+  65 |     for (const repo of allRepos) {
+  66 |       try {
+> 67 |         const { data: commits } = await octokit.repos.listCommits({
+     |                                  ^
+  68 |           owner: repo.owner.login,
+  69 |           repo: repo.name,
+  70 |           author: username, {
+  status: 409,
+  request: [Object],
+  response: [Object]
+}
+ GET /api/stats 200 in 49459ms
+GET /repos/nftstory/bbb-frontend-degen/commits?author=nnnnicholas&since=2025-07-10T20%3A57%3A25.932Z&per_page=100 - 409 with id C17E:397759:F19962:1ED1944:68741DC7 in 133ms
+Error fetching commits for nftstory/bbb-frontend-degen: Error [HttpError]: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits
+    at <unknown> (HttpError: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits)
+    at async GET (app/api/stats/route.ts:67:34)
+  65 |     for (const repo of allRepos) {
+  66 |       try {
+> 67 |         const { data: commits } = await octokit.repos.listCommits({
+     |                                  ^
+  68 |           owner: repo.owner.login,
+  69 |           repo: repo.name,
+  70 |           author: username, {
+  status: 409,
+  request: [Object],
+  response: [Object]
+}
+GET /repos/nftstory/bbb-token-api/commits?author=nnnnicholas&since=2025-07-10T20%3A57%3A25.932Z&per_page=100 - 409 with id C16D:3A2944:F71EF6:1F79AB3:68741DC7 in 96ms
+Error fetching commits for nftstory/bbb-token-api: Error [HttpError]: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits
+    at <unknown> (HttpError: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits)
+    at async GET (app/api/stats/route.ts:67:34)
+  65 |     for (const repo of allRepos) {
+  66 |       try {
+> 67 |         const { data: commits } = await octokit.repos.listCommits({
+     |                                  ^
+  68 |           owner: repo.owner.login,
+  69 |           repo: repo.name,
+  70 |           author: username, {
+  status: 409,
+  request: [Object],
+  response: [Object]
+}
+GET /repos/nftstory/memewar-frontend/commits?author=nnnnicholas&since=2025-07-10T20%3A57%3A25.932Z&per_page=100 - 409 with id C16D:3A2944:F72219:1F7A11C:68741DC9 in 88ms
+Error fetching commits for nftstory/memewar-frontend: Error [HttpError]: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits
+    at <unknown> (HttpError: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits)
+    at async GET (app/api/stats/route.ts:67:34)
+  65 |     for (const repo of allRepos) {
+  66 |       try {
+> 67 |         const { data: commits } = await octokit.repos.listCommits({
+     |                                  ^
+  68 |           owner: repo.owner.login,
+  69 |           repo: repo.name,
+  70 |           author: username, {
+  status: 409,
+  request: [Object],
+  response: [Object]
+}
+GET /repos/nftstory/nftstory-subgraph-mumbai/commits?author=nnnnicholas&since=2025-07-10T20%3A57%3A25.932Z&per_page=100 - 409 with id C16D:3A2944:F76314:1F82697:68741DE1 in 87ms
+Error fetching commits for nftstory/nftstory-subgraph-mumbai: Error [HttpError]: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits
+    at <unknown> (HttpError: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits)
+    at async GET (app/api/stats/route.ts:67:34)
+  65 |     for (const repo of allRepos) {
+  66 |       try {
+> 67 |         const { data: commits } = await octokit.repos.listCommits({
+     |                                  ^
+  68 |           owner: repo.owner.login,
+  69 |           repo: repo.name,
+  70 |           author: username, {
+  status: 409,
+  request: [Object],
+  response: [Object]
+}
+GET /repos/nftstory/memewar-frontend/commits?author=nnnnicholas&since=2025-07-10T20%3A57%3A25.932Z&per_page=100 - 409 with id C17E:397759:F1E535:1EDB43E:68741DE2 in 108ms
+Error fetching commits for nftstory/memewar-frontend: Error [HttpError]: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits
+    at <unknown> (HttpError: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits)
+    at async GET (app/api/stats/route.ts:67:34)
+  65 |     for (const repo of allRepos) {
+  66 |       try {
+> 67 |         const { data: commits } = await octokit.repos.listCommits({
+     |                                  ^
+  68 |           owner: repo.owner.login,
+  69 |           repo: repo.name,
+  70 |           author: username, {
+  status: 409,
+  request: [Object],
+  response: [Object]
+}
+GET /repos/nftstory/bbb-token-api/commits?author=nnnnicholas&since=2025-07-10T20%3A57%3A25.932Z&per_page=100 - 409 with id C16D:3A2944:F76862:1F83189:68741DE3 in 86ms
+Error fetching commits for nftstory/bbb-token-api: Error [HttpError]: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits
+    at <unknown> (HttpError: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits)
+    at async GET (app/api/stats/route.ts:67:34)
+  65 |     for (const repo of allRepos) {
+  66 |       try {
+> 67 |         const { data: commits } = await octokit.repos.listCommits({
+     |                                  ^
+  68 |           owner: repo.owner.login,
+  69 |           repo: repo.name,
+  70 |           author: username, {
+  status: 409,
+  request: [Object],
+  response: [Object]
+}
+GET /repos/nftstory/bbb-frontend-degen/commits?author=nnnnicholas&since=2025-07-10T20%3A57%3A25.932Z&per_page=100 - 409 with id C17E:397759:F1E7C5:1EDB951:68741DE3 in 119ms
+Error fetching commits for nftstory/bbb-frontend-degen: Error [HttpError]: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits
+    at <unknown> (HttpError: Git Repository is empty. - https://docs.github.com/rest/commits/commits#list-commits)
+    at async GET (app/api/stats/route.ts:67:34)
+  65 |     for (const repo of allRepos) {
+  66 |       try {
+> 67 |         const { data: commits } = await octokit.repos.listCommits({
+     |                                  ^
+  68 |           owner: repo.owner.login,
+  69 |           repo: repo.name,
+  70 |           author: username, {
+  status: 409,
+  request: [Object],
+  response: [Object]
+}
+ GET /api/stats 200 in 46101ms
+ GET /dashboard 200 in 44ms
+ GET /api/stats 200 in 30ms
+ GET /api/auth/session 200 in 33ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 231ms
+ GET /dashboard 200 in 44ms
+ GET /api/stats 200 in 29ms
+ GET /api/auth/session 200 in 33ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 231ms
+ GET /api/stats?refresh=true 200 in 8659ms
+ GET /dashboard 200 in 57ms
+ GET /api/auth/session 200 in 36ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 241ms
+ GET /api/stats 200 in 11327ms
+ GET /dashboard 200 in 55ms
+ GET /api/stats 200 in 30ms
+ GET /api/auth/session 200 in 34ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 232ms
+ GET /api/stats?refresh=true 200 in 11403ms
+ GET /dashboard 200 in 47ms
+ GET /api/auth/session 200 in 30ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 236ms
+Found 55 commits in nnnnicholas/telegram-multiplayer-notes
+ GET /api/stats 200 in 14072ms
+ ✓ Compiled in 27ms
+Found 65 commits in nnnnicholas/telegram-multiplayer-notes
+ GET /api/auth/session 200 in 38ms
+ ✓ Compiled in 31ms
+Found 3 commits in nnnnicholas/mcp-memory
+ GET /api/stats 200 in 13705ms
+ ✓ Compiled in 32ms
+ ✓ Compiled in 34ms
+ GET /api/auth/session 200 in 188ms
+ GET /dashboard 200 in 179ms
+ GET /api/auth/session 200 in 112ms
+GET /user/repos?per_page=50&sort=pushed&type=all - 500 with id UNKNOWN in 4ms
+Error in stats API: Error [HttpError]: getaddrinfo ENOTFOUND api.github.com
+    at <unknown> (HttpError: getaddrinfo ENOTFOUND api.github.com)
+    at async GET (app/api/stats/route.ts:51:28)
+  49 |     // Get all repositories (including private ones) for authenticated user
+  50 |     // Limit to 50 most recently pushed repos to speed up the API
+> 51 |     const { data: repos } = await octokit.repos.listForAuthenticatedUser({
+     |                            ^
+  52 |       per_page: 50,
+  53 |       sort: 'pushed',
+  54 |       type: 'all' {
+  status: 500,
+  request: [Object],
+  response: undefined,
+  [cause]: TypeError: fetch failed
+      at async GET (app/api/stats/route.ts:51:28)
+    49 |     // Get all repositories (including private ones) for authenticated user
+    50 |     // Limit to 50 most recently pushed repos to speed up the API
+  > 51 |     const { data: repos } = await octokit.repos.listForAuthenticatedUser({
+       |                            ^
+    52 |       per_page: 50,
+    53 |       sort: 'pushed',
+    54 |       type: 'all' {
+    [cause]: [Error: getaddrinfo ENOTFOUND api.github.com] {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'api.github.com'
+    }
+  }
+}
+ GET /api/stats?days=5 500 in 238ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 354ms
+ GET /dashboard 200 in 80ms
+ GET /api/auth/session 200 in 113ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 313ms
+Found 65 commits in nnnnicholas/telegram-multiplayer-notes
+ GET /api/auth/session 200 in 31ms
+Found 1 commits in nnnnicholas/mcp-memory
+ GET /api/stats?days=5 200 in 23449ms
+ GET /api/auth/session 200 in 294ms
+ GET /api/auth/session 200 in 41ms
+ GET /dashboard 200 in 58ms
+ GET /api/auth/session 200 in 43ms
+GET /user/repos?per_page=50&sort=pushed&type=all - 500 with id UNKNOWN in 3ms
+Error in stats API: Error [HttpError]: getaddrinfo ENOTFOUND api.github.com
+    at <unknown> (HttpError: getaddrinfo ENOTFOUND api.github.com)
+    at async GET (app/api/stats/route.ts:51:28)
+  49 |     // Get all repositories (including private ones) for authenticated user
+  50 |     // Limit to 50 most recently pushed repos to speed up the API
+> 51 |     const { data: repos } = await octokit.repos.listForAuthenticatedUser({
+     |                            ^
+  52 |       per_page: 50,
+  53 |       sort: 'pushed',
+  54 |       type: 'all' {
+  status: 500,
+  request: [Object],
+  response: undefined,
+  [cause]: TypeError: fetch failed
+      at async GET (app/api/stats/route.ts:51:28)
+    49 |     // Get all repositories (including private ones) for authenticated user
+    50 |     // Limit to 50 most recently pushed repos to speed up the API
+  > 51 |     const { data: repos } = await octokit.repos.listForAuthenticatedUser({
+       |                            ^
+    52 |       per_page: 50,
+    53 |       sort: 'pushed',
+    54 |       type: 'all' {
+    [cause]: [Error: getaddrinfo ENOTFOUND api.github.com] {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'api.github.com'
+    }
+  }
+}
+ GET /api/stats?days=5 500 in 142ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 250ms
+ ✓ Compiled / in 422ms
+ GET / 200 in 441ms
+ GET /dashboard 200 in 27ms
+ GET /dashboard 200 in 22ms
+GET /user/repos?per_page=50&sort=pushed&type=all - 500 with id UNKNOWN in 6ms
+Error in stats API: Error [HttpError]: getaddrinfo ENOTFOUND api.github.com
+    at <unknown> (HttpError: getaddrinfo ENOTFOUND api.github.com)
+    at async GET (app/api/stats/route.ts:51:28)
+  49 |     // Get all repositories (including private ones) for authenticated user
+  50 |     // Limit to 50 most recently pushed repos to speed up the API
+> 51 |     const { data: repos } = await octokit.repos.listForAuthenticatedUser({
+     |                            ^
+  52 |       per_page: 50,
+  53 |       sort: 'pushed',
+  54 |       type: 'all' {
+  status: 500,
+  request: [Object],
+  response: undefined,
+  [cause]: TypeError: fetch failed
+      at async GET (app/api/stats/route.ts:51:28)
+    49 |     // Get all repositories (including private ones) for authenticated user
+    50 |     // Limit to 50 most recently pushed repos to speed up the API
+  > 51 |     const { data: repos } = await octokit.repos.listForAuthenticatedUser({
+       |                            ^
+    52 |       per_page: 50,
+    53 |       sort: 'pushed',
+    54 |       type: 'all' {
+    [cause]: [Error: getaddrinfo ENOTFOUND api.github.com] {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'api.github.com'
+    }
+  }
+}
+ GET /api/stats?days=5 500 in 99ms
+GET /user/repos?per_page=50&sort=pushed&type=all - 500 with id UNKNOWN in 3ms
+Error in stats API: Error [HttpError]: getaddrinfo ENOTFOUND api.github.com
+    at <unknown> (HttpError: getaddrinfo ENOTFOUND api.github.com)
+    at async GET (app/api/stats/route.ts:51:28)
+  49 |     // Get all repositories (including private ones) for authenticated user
+  50 |     // Limit to 50 most recently pushed repos to speed up the API
+> 51 |     const { data: repos } = await octokit.repos.listForAuthenticatedUser({
+     |                            ^
+  52 |       per_page: 50,
+  53 |       sort: 'pushed',
+  54 |       type: 'all' {
+  status: 500,
+  request: [Object],
+  response: undefined,
+  [cause]: TypeError: fetch failed
+      at async GET (app/api/stats/route.ts:51:28)
+    49 |     // Get all repositories (including private ones) for authenticated user
+    50 |     // Limit to 50 most recently pushed repos to speed up the API
+  > 51 |     const { data: repos } = await octokit.repos.listForAuthenticatedUser({
+       |                            ^
+    52 |       per_page: 50,
+    53 |       sort: 'pushed',
+    54 |       type: 'all' {
+    [cause]: [Error: getaddrinfo ENOTFOUND api.github.com] {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'api.github.com'
+    }
+  }
+}
+ GET /api/stats?days=5 500 in 89ms
+ GET /dashboard 200 in 58ms
+GET /user/repos?per_page=50&sort=pushed&type=all - 500 with id UNKNOWN in 5ms
+Error in stats API: Error [HttpError]: getaddrinfo ENOTFOUND api.github.com
+    at <unknown> (HttpError: getaddrinfo ENOTFOUND api.github.com)
+    at async GET (app/api/stats/route.ts:51:28)
+  49 |     // Get all repositories (including private ones) for authenticated user
+  50 |     // Limit to 50 most recently pushed repos to speed up the API
+> 51 |     const { data: repos } = await octokit.repos.listForAuthenticatedUser({
+     |                            ^
+  52 |       per_page: 50,
+  53 |       sort: 'pushed',
+  54 |       type: 'all' {
+  status: 500,
+  request: [Object],
+  response: undefined,
+  [cause]: TypeError: fetch failed
+      at async GET (app/api/stats/route.ts:51:28)
+    49 |     // Get all repositories (including private ones) for authenticated user
+    50 |     // Limit to 50 most recently pushed repos to speed up the API
+  > 51 |     const { data: repos } = await octokit.repos.listForAuthenticatedUser({
+       |                            ^
+    52 |       per_page: 50,
+    53 |       sort: 'pushed',
+    54 |       type: 'all' {
+    [cause]: [Error: getaddrinfo ENOTFOUND api.github.com] {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'api.github.com'
+    }
+  }
+}
+ GET /api/stats?days=5 500 in 111ms
+ GET /api/auth/session 200 in 114ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 240ms
+ GET /dashboard 200 in 62ms
+ GET /api/auth/session 200 in 63ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 270ms
+Found 66 commits in nnnnicholas/telegram-multiplayer-notes
+Found 1 commits in nnnnicholas/mcp-memory
+ GET /api/stats?days=5 200 in 20633ms
+Found 56 commits in nnnnicholas/telegram-multiplayer-notes
+ GET /api/stats?days=3 200 in 13909ms
+Found 66 commits in nnnnicholas/telegram-multiplayer-notes
+Found 13 commits in nnnnicholas/mcp-memory
+Found 13 commits in seedclub/sc-website
+Found 13 commits in seedclub/sc-website
+ GET /api/stats?days=7 200 in 35050ms
+ GET /api/auth/csrf 200 in 45ms
+ POST /api/auth/signout 200 in 24ms
+ GET /?from=%2Fdashboard 200 in 63ms
+ GET /api/auth/session 200 in 30ms
+   Reload env: .env.local
+ GET /?from=%2Fdashboard 200 in 104ms

@@ -41,7 +41,7 @@ export const authOptions: NextAuthOptions = {
         session.user.id = token.sub
       }
       // Pass through the token to make it accessible in API routes
-      (session as any).token = token
+      ;(session as any).token = token
       return session
     },
     async jwt({ token, account, profile }) {

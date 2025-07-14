@@ -32,7 +32,7 @@ export async function GET(request: Request) {
     }
 
     // Use the user's GitHub token from their OAuth session
-    const userToken = (session as any).token?.accessToken
+    const userToken = (session as any).token?.accessToken as string | undefined
     
     if (!userToken) {
       return NextResponse.json({ error: 'No GitHub access token found' }, { status: 401 })
@@ -43,7 +43,7 @@ export async function GET(request: Request) {
     })
 
     // Get username from the authenticated session
-    const username = (session as any).token?.username || session.user?.name
+    const username = ((session as any).token?.username || session.user?.name) as string
     const since = subDays(new Date(), days).toISOString()
     
     // Get all repositories (including private ones) for authenticated user

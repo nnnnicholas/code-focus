@@ -15,13 +15,6 @@ interface RepoStats {
   isPrivate: boolean
 }
 
-interface StatsResponse {
-  repos: RepoStats[]
-  totalRepos: number
-  totalCommits: number
-  totalLinesChanged: number
-  fromCache?: boolean
-}
 
 export default function Dashboard() {
   const { data: session } = useSession()
@@ -58,6 +51,7 @@ export default function Dashboard() {
 
   useEffect(() => {
     fetchCommitData()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [days])
 
   if (loading) {
