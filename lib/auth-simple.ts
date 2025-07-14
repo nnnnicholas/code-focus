@@ -1,16 +1,15 @@
 import { NextAuthOptions } from "next-auth"
 import GithubProvider from "next-auth/providers/github"
 
-// Force trim all whitespace including newlines
-const cleanString = (str: string): string => {
-  return str.replace(/[\r\n\s]+$/, '').replace(/^[\r\n\s]+/, '')
+// Get environment variables with aggressive cleaning
+const getCleanEnv = (key: string, fallback: string): string => {
+  const value = process.env[key] || fallback
+  // Remove all whitespace characters including newlines, carriage returns, tabs
+  return value.replace(/\s/g, '')
 }
 
-const GITHUB_ID = cleanString("Ov23li4TtKu7i2rEEGsB")
-const GITHUB_SECRET = cleanString("520a28f544373adee3cabec3b3142c11370b63a9")
-
-console.log("[AUTH-TRIMMED] Client ID length:", GITHUB_ID.length)
-console.log("[AUTH-TRIMMED] Client ID:", JSON.stringify(GITHUB_ID))
+const GITHUB_ID = getCleanEnv('GITHUB_ID', 'Ov23li4TtKu7i2rEEGsB')
+const GITHUB_SECRET = getCleanEnv('GITHUB_SECRET', '520a28f544373adee3cabec3b3142c11370b63a9')
 
 export const authOptions: NextAuthOptions = {
   providers: [
@@ -18,7 +17,6 @@ export const authOptions: NextAuthOptions = {
       clientId: GITHUB_ID,
       clientSecret: GITHUB_SECRET,
       authorization: {
-        url: "https://github.com/login/oauth/authorize",
         params: {
           scope: 'read:user user:email repo'
         }
