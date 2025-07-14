@@ -2,7 +2,6 @@ import { NextResponse } from 'next/server'
 
 export async function GET() {
   const clientId = process.env.GITHUB_ID
-  const clientSecret = process.env.GITHUB_SECRET
   const nextAuthUrl = process.env.NEXTAUTH_URL
   
   // Manually construct the OAuth URL
