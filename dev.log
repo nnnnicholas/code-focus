@@ -775,3 +775,4 @@ Found 13 commits in seedclub/sc-website
   syscall: 'open',
   path: '/Users/nico/Development/active projects/code-focus/.next/server/app/favicon.ico/[__metadata_id__]/route/app-paths-manifest.json'
 }
+ ✓ Compiled middleware in 1ms
