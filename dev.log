@@ -677,3 +677,101 @@ Found 13 commits in seedclub/sc-website
  GET /api/auth/session 200 in 30ms
    Reload env: .env.local
  GET /?from=%2Fdashboard 200 in 104ms
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/nico/Development/active projects/code-focus/.next/server/app/api/auth/[...nextauth]/[__metadata_id__]/route/app-paths-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/nico/Development/active projects/code-focus/.next/server/app/api/auth/[...nextauth]/[__metadata_id__]/route/app-paths-manifest.json'
+}
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 557ms
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/nico/Development/active projects/code-focus/.next/static/development/_buildManifest.js.tmp.y02j303pzdn'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/nico/Development/active projects/code-focus/.next/static/development/_buildManifest.js.tmp.y02j303pzdn'
+}
+[Error: ENOENT: no such file or directory, open '/Users/nico/Development/active projects/code-focus/.next/server/app/api/auth/[...nextauth]/[__metadata_id__]/route/app-paths-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/nico/Development/active projects/code-focus/.next/server/app/api/auth/[...nextauth]/[__metadata_id__]/route/app-paths-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/nico/Development/active projects/code-focus/.next/static/development/_buildManifest.js.tmp.0szeryn2rev9'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/nico/Development/active projects/code-focus/.next/static/development/_buildManifest.js.tmp.0szeryn2rev9'
+}
+[Error: ENOENT: no such file or directory, open '/Users/nico/Development/active projects/code-focus/.next/static/development/_buildManifest.js.tmp.vb2y0fv1m6'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/nico/Development/active projects/code-focus/.next/static/development/_buildManifest.js.tmp.vb2y0fv1m6'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/nico/Development/active projects/code-focus/.next/server/app/api/auth/[...nextauth]/[__metadata_id__]/route/app-paths-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/nico/Development/active projects/code-focus/.next/server/app/api/auth/[...nextauth]/[__metadata_id__]/route/app-paths-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/nico/Development/active projects/code-focus/.next/server/app/api/auth/[...nextauth]/[__metadata_id__]/route/app-paths-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/nico/Development/active projects/code-focus/.next/server/app/api/auth/[...nextauth]/[__metadata_id__]/route/app-paths-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/nico/Development/active projects/code-focus/.next/static/development/_buildManifest.js.tmp.yyub8yehygg'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/nico/Development/active projects/code-focus/.next/static/development/_buildManifest.js.tmp.yyub8yehygg'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/nico/Development/active projects/code-focus/.next/static/development/_buildManifest.js.tmp.e28isdaysk7'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/nico/Development/active projects/code-focus/.next/static/development/_buildManifest.js.tmp.e28isdaysk7'
+}
+[Error: ENOENT: no such file or directory, open '/Users/nico/Development/active projects/code-focus/.next/server/app/api/auth/[...nextauth]/[__metadata_id__]/route/app-paths-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/nico/Development/active projects/code-focus/.next/server/app/api/auth/[...nextauth]/[__metadata_id__]/route/app-paths-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open '/Users/nico/Development/active projects/code-focus/.next/server/app/api/auth/[...nextauth]/[__metadata_id__]/route/app-paths-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/nico/Development/active projects/code-focus/.next/server/app/api/auth/[...nextauth]/[__metadata_id__]/route/app-paths-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/nico/Development/active projects/code-focus/.next/static/development/_buildManifest.js.tmp.erxek9xzv6'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/nico/Development/active projects/code-focus/.next/static/development/_buildManifest.js.tmp.erxek9xzv6'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/nico/Development/active projects/code-focus/.next/static/development/_buildManifest.js.tmp.5l06af5eah9'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/nico/Development/active projects/code-focus/.next/static/development/_buildManifest.js.tmp.5l06af5eah9'
+}
+[Error: ENOENT: no such file or directory, open '/Users/nico/Development/active projects/code-focus/.next/static/development/_buildManifest.js.tmp.f7bgr8qvn3m'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/nico/Development/active projects/code-focus/.next/static/development/_buildManifest.js.tmp.f7bgr8qvn3m'
+}
+[Error: ENOENT: no such file or directory, open '/Users/nico/Development/active projects/code-focus/.next/static/development/_buildManifest.js.tmp.e83z64jutkj'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/nico/Development/active projects/code-focus/.next/static/development/_buildManifest.js.tmp.e83z64jutkj'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/nico/Development/active projects/code-focus/.next/server/app/favicon.ico/[__metadata_id__]/route/app-paths-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/nico/Development/active projects/code-focus/.next/server/app/favicon.ico/[__metadata_id__]/route/app-paths-manifest.json'
+}

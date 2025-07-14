@@ -5,8 +5,10 @@ Code Focus is a private GitHub activity dashboard that displays commit activity 
 
 ## Important References
 - **Project Plan**: See `documentation/project-plan.md` for detailed implementation plan
+- **Development Log**: See `documentation/development-log.md` for decisions made and solutions implemented
+- **Setup Guide**: See `documentation/setup-guide.md` for deployment instructions
 - **Tech Stack**: Next.js, TypeScript, NextAuth, Tailwind CSS, Vercel
-- **Main Goal**: Show ranked repositories by lines of code committed in last 72 hours
+- **Main Goal**: Show ranked repositories by lines of code committed in last N days (configurable)
 
 ## Development Guidelines
 1. Always use `pnpm` for package management

@@ -59,7 +59,7 @@ export async function GET(request: Request) {
       per_page: 100
     })
 
-    let allRepos = [...repos]
+    let allRepos: any[] = [...repos]
 
     // Get repos from each organization
     for (const org of orgs) {
