@@ -11,13 +11,16 @@ export async function GET() {
   const analysis = {
     clientId: clientId,
     clientIdLength: clientId.length,
-    clientIdCharCodes: Array.from(clientId).map((c, i) => ({
-      index: i,
-      char: c,
-      charCode: c.charCodeAt(0),
-      hex: c.charCodeAt(0).toString(16),
-      description: getCharDescription(c.charCodeAt(0))
-    })),
+    clientIdCharCodes: Array.from(clientId).map((c, i) => {
+      const char = c as string
+      return {
+        index: i,
+        char: char,
+        charCode: char.charCodeAt(0),
+        hex: char.charCodeAt(0).toString(16),
+        description: getCharDescription(char.charCodeAt(0))
+      }
+    }),
     hasNewline: clientId.includes('\n'),
     hasCarriageReturn: clientId.includes('\r'),
     hasSpace: clientId.includes(' '),
