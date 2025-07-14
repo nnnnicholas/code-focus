@@ -11,7 +11,7 @@ export async function GET() {
   const analysis = {
     clientId: clientId,
     clientIdLength: clientId.length,
-    clientIdCharCodes: Array.from(clientId).map((c: string, i: number) => ({
+    clientIdCharCodes: Array.from(clientId).map((c, i) => ({
       index: i,
       char: c,
       charCode: c.charCodeAt(0),

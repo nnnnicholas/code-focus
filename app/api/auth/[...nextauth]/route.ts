@@ -1,7 +1,5 @@
 import NextAuth from "next-auth"
-import { authOptions } from "@/lib/auth-debug"
-
-console.log("[ROUTE] NextAuth route handler initializing")
+import { authOptions } from "@/lib/auth-trimmed"
 
 const handler = NextAuth(authOptions)
 
