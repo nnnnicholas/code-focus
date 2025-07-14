@@ -14,7 +14,7 @@ Track your GitHub commit activity and see what you've been working on.
 
 ## Demo
 
-[Try it live](https://code-focus.vercel.app) - Sign in with your GitHub account
+[Try it live](https://code-focus-nnnnicholas.vercel.app) - Sign in with your GitHub account
 
 ## Quick Start
 

@@ -9,7 +9,10 @@
     "lint": "next lint",
     "screenshot": "node scripts/screenshot-simple.js",
     "screenshot:save-auth": "node scripts/screenshot.js save-auth",
-    "screenshot:auth": "node scripts/screenshot.js screenshot"
+    "screenshot:auth": "node scripts/screenshot.js screenshot",
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:oauth": "node test-github-oauth.js"
   },
   "dependencies": {
     "@auth/prisma-adapter": "^2.10.0",
