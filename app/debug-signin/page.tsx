@@ -36,7 +36,7 @@ export default function DebugSignIn() {
             onClick={handleSignIn}
             className="w-full px-4 py-2 bg-gray-900 text-white rounded-md hover:bg-gray-800"
           >
-            Get OAuth URL (Won\'t Redirect)
+            Get OAuth URL (Won&apos;t Redirect)
           </button>
           
           <button

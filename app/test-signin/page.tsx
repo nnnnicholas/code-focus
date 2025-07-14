@@ -9,12 +9,12 @@ export default function TestSignIn() {
             Click the link below to test GitHub OAuth directly:
           </p>
           
-          <a
-            href="/api/auth/signin/github"
+          <button
+            onClick={() => window.location.href = '/api/auth/signin/github'}
             className="block w-full text-center px-4 py-2 bg-gray-900 text-white rounded-md hover:bg-gray-800"
           >
             Sign in with GitHub (Direct Link)
-          </a>
+          </button>
           
           <div className="mt-6 pt-6 border-t">
             <p className="text-xs text-gray-500">

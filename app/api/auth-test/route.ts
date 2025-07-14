@@ -1,7 +1,6 @@
 import { NextResponse } from 'next/server'
 
 export async function GET(request: Request) {
-  const url = new URL(request.url)
   
   // Simulate what NextAuth does
   const clientId = process.env.GITHUB_ID
